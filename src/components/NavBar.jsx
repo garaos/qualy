@@ -8,7 +8,7 @@ const NavBar=()=>{
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/"><i className="fa-solid fa-dna"></i> Qualy Vie</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="justify-content-end">
             <Nav.Link href="/">Inicio</Nav.Link>
             <Nav.Link href="/Producto">Colageno</Nav.Link>
             <Nav.Link href="/Contacto">Contacto</Nav.Link>

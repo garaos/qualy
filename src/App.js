@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import Inicio from './routes/Inicio';
 import Producto from './routes/Producto'
 import Contacto from './routes/Contacto'
+import './App.css'
 
 function App() {
   return (
