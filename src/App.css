@@ -1,13 +1,15 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
-/* Jumbotron */
+
 .fondohome {
-  background-color: #3b5998;
+  background-color: #3b5998; 
   min-height: 100vh;
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover; 
+} 
+
+
 .botoncitojt{
   text-align: center;
 }
