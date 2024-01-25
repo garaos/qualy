@@ -2,16 +2,45 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.fondohome {
-  background-color: #3b5998; 
-  min-height: 100vh;
-  background-position: center;
-  background-size: cover; 
-} 
+/* .video-div1{
+  max-width: 100vw;
+}
+#video-text {
+  position: relative;
+  overflow: hidden;
+} */
+.intro {
+  display: table;
+  padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 
+} 
+video {
+  top: 0;
+  left: 0;
+
+}
+.videointro {
+  width: 100vw;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+header .intro-text {
+  /* padding-bottom: 150px; */
+  text-align: center;
+}
 
 .botoncitojt{
-  text-align: center;
+  position: relative;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .shadou {
