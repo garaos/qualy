@@ -1,12 +1,12 @@
 import NavBar from '../components/NavBar'
-import Home from '../contents/Home'
+import Colageno from '../contents/Colageno'
 import Footer from '../components/Footer';
 
 const Producto = () => {
     return (
         <div className=''>
             <NavBar />
-            <Home />
+            <Colageno />
             <Footer />
         </div>
     );

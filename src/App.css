@@ -2,6 +2,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.barra {
+ background-color: hsl(215, 20%, 82%);
+}
+
 .main {
   width: 100%;
   height: 100vh;
@@ -25,6 +29,10 @@ video {
   color: white;
 }
 /* Footer */
+.fcolor {
+  background-color: hsl(175, 15%, 80%);
+}
+
 .colorfb {
   color: #3b5998;
 }

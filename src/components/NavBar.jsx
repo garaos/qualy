@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const NavBar = () => {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark">
+    <Navbar className='barra'>
       <Container>
         <Navbar.Brand href="/"><i className="fa-solid fa-dna"></i> Qualy Vie</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
