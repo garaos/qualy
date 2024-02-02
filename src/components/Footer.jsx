@@ -2,42 +2,48 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 
-
-
 const Footer = () => {
     return (
+        <footer className="pt-5 pb-5 text-center text-md-start fcolor">
 
-        <footer className="pt-4 text-center text-md-start fcolor">
+
+
             <div className="container p-4 pb-3 pb-lg-1">
-                <div className="row">
 
-                    <div className="col-md-6 mx-auto mt-3">
-                        <h6 className="text-uppercase mb-4 fw-bold"><i className="fa-solid fa-dna"></i> Qualy Vie
-                        </h6>
-                        <div>
-                            <div><Link to="/" className="fs-5 text-decoration-none text-black " > Home</Link></div>
-                            <div><Link to="/Producto" className="fs-5 text-decoration-none text-black" > Colageno</Link></div>
-                            <div><Link to="" className="fs-5 text-decoration-none text-black" > <a className="text-decoration-none text-dark" href="mailto: contacto@qualyvie.com">Contacto</a></Link></div>
 
-                        </div>
-                    </div>
 
-                    <hr className="clearfix w-100 d-md-none pb-0" />
 
-                    <div className="col-md-3 mx-auto mt-3">
-                        <h6 className="text-uppercase mb-4 fw-bold">Contacto</h6>
-                        <p><i className="fa-solid fa-house"></i> Geronimo de Alderete 1311, Vitacura</p>
-                        <p><i className="fa-solid fa-paper-plane"></i> <a className="text-decoration-none text-black" href="mailto: contacto@qualyvie.com">contacto@qualyvie.com</a></p>
-                        <p><i className="fa-solid fa-mobile-screen-button"></i> +56 2 xxx xxxx</p>
-                    </div>
 
-                    <hr className="clearfix w-100 d-md-none pb-0" />
-
-                    <div className="col-md-3 mx-auto mt-3">
-                        <h6 className="text-uppercase mb-4 fw-bold">Síguenos</h6>
-                        <Link to="/"><i className="fa-brands fa-instagram m-1 colorig"></i></Link>
-                    </div>
-                </div>
+                <ul className="justify-content-center border-bottom pb-3 mb-3 d-flex nav">
+                    <li>
+                    <div className="d-flex">
+                <i className=" fs-5 fa-solid fa-dna
+                "></i>
+                <p className="fs-5 text-black px-3">Qualy Vie</p>
+            </div>
+                    </li>
+                    <li className="pb-3">
+                        <Link
+                            to="/"
+                            className="fs-5 text-decoration-none text-black px-3">
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="/Producto"
+                            className="fs-5 text-decoration-none text-black px-3">
+                            Colageno
+                        </Link>
+                    </li>
+                    <li>
+                        <a
+                            className="fs-5 text-decoration-none text-black px-3"
+                            href="mailto: contacto@qualyvie.com">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
             </div>
         </footer>
 

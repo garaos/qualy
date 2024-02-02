@@ -21,12 +21,13 @@ video {
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 100px;
+  top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
+
 }
 /* Footer */
 .fcolor {
