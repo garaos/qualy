@@ -1,0 +1,33 @@
+```
+└── 📁qualyvie
+    └── .gitignore
+    └── package-lock.json
+    └── package.json
+    └── 📁public
+        └── favicon.ico
+        └── index.html
+        └── manifest.json
+        └── robots.txt
+    └── README.md
+    └── 📁src
+        └── App.css
+        └── App.js
+        └── 📁components
+            └── Footer.jsx
+            └── Footer2.jsx
+            └── Mailto.jsx
+            └── NavBar.jsx
+        └── 📁contents
+            └── Colageno.jsx
+            └── Contact.jsx
+            └── Home.jsx
+        └── 📁img
+        └── index.css
+        └── index.js
+        └── 📁routes
+            └── Contacto.jsx
+            └── Inicio.jsx
+            └── Producto.jsx
+        └── 📁video
+            └── loop01.mp4
+```

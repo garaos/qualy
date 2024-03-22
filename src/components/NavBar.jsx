@@ -2,12 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Button } from 'react-bootstrap';
+import companyLogo from  '../img/Logo-Qualy.png';
 
 const NavBar = () => {
   return (
     <Navbar expand="lg" className='barra'>
       <Container>
-        <Navbar.Brand href="/"><i className="fa-solid fa-dna"></i> Qualy Vie</Navbar.Brand>
+        <Navbar.Brand href="/"><img src={companyLogo} alt=" " height="60" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav>
